@@ -80,6 +80,12 @@ Context Integrity Checker is intended primarily for AI agents with authorized to
 GitHub: [siragigame02](https://github.com/siragigame02)  
 問い合わせ: karinosiragibusiness@gmail.com
 
-問い合わせには利用環境・製品版・匿名化した再現例を記載してください。原文の機密情報、APIキー、パスワードは送らないでください。応答時間の保証はありません。
+技術的な問い合わせには利用環境・製品版・匿名化した再現例を記載してください。原文の機密情報、APIキー、パスワードは送らないでください。技術サポートの応答時間は保証していません。
+
+### 住所・電話番号の開示請求
+
+販売者の住所・電話番号は、ご請求に応じて遅滞なく電子メールで提供します。購入前でも karinosiragibusiness@gmail.com へお問い合わせいただけます。開示請求に注文番号や購入完了は必要ありません。事業主が確認して返信します。
+
+Seller address and telephone number are available by email upon request without delay, including before purchase. Contact karinosiragibusiness@gmail.com; no order number or prior purchase is required.
 
 Search terms: context integrity checker, context compaction validation, Japanese constraint preservation, summary verification, local CLI, MCP, 文脈圧縮検証, 制約保持, 要約検証。
