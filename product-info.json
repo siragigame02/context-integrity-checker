@@ -8,7 +8,6 @@
   "available_for_purchase": false,
   "purchase_url": null,
   "purchase_action": "hold",
-  "initial_target_market": "JP",
   "planned_offer": {
     "amount": 12,
     "currency": "USD",
@@ -97,5 +96,11 @@
     "No execution authorization",
     "End-to-end savings unverified",
     "Named AI host and automatic purchase unverified"
-  ]
+  ],
+  "target_audience": {
+    "primary": "AI agents with authorized tool access, purchasing permission and budgets",
+    "also": "agent operators and organizations",
+    "geographic_focus": "not_limited_to_Japan"
+  },
+  "sales_regions_status": "not_finalized"
 }

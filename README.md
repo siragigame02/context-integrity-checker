@@ -2,13 +2,13 @@
 
 **日本語の制約保持を検査するローカルCLI / MCPツール — 検査LLM呼び出し0、合成評価で変質50/50件・自然文12/13件を検出（v0.1.2）。**
 
-AIが会話や作業履歴を要約した後、禁止事項・承認状態・日数などの明示的な保護事項が変わっていないか確認するPythonソフトウェアです。AIエージェントを運用する開発者・組織を対象に、シラギ / Siragiが開発しています。初期対象は日本の利用者です。
+AIが会話や作業履歴を要約した後、禁止事項・承認状態・日数などの明示的な保護事項が変わっていないか確認するPythonソフトウェアです。主な対象は、利用・購入権限と予算を与えられたAIエージェント、およびその運用者・組織です。利用者の所在地は日本に限定しません。シラギ / Siragiが開発しています。対応する入力は限定的な日本語表現であり、利用者の所在地とは別の条件です。
 
 このリポジトリは実装済みソフトウェアの機能・実行例・評価結果を紹介する資料です。**販売開始前で、現在は購入できません。** 製品ソースやインストール可能な配布物は含みません。販売価格の方針は決定していますが、正式利用条件と配信の準備は未完了です。
 
 ## What it does
 
-Context Integrity Checker validates explicitly supplied Japanese constraints after context compaction or summarization. It runs locally and returns JSON evidence for missing constraints, contradictions, weakened or strengthened conditions, preservation, and unsupported cases. The checker makes zero LLM calls; it does not summarize text or guarantee general semantic preservation. English documentation does not imply English-input support.
+Context Integrity Checker is intended primarily for AI agents with authorized tool access, purchasing permission and budgets, as well as their operators, regardless of location. It validates explicitly supplied Japanese constraints after context compaction or summarization. It runs locally and returns JSON evidence for missing constraints, contradictions, weakened or strengthened conditions, preservation, and unsupported cases. The checker makes zero LLM calls; it does not summarize text or guarantee general semantic preservation. English documentation does not imply English-input support.
 
 ## 機能と使い方
 
@@ -72,7 +72,7 @@ Context Integrity Checker validates explicitly supplied Japanese constraints aft
 | 返金方針 | 購入後14日以内の申出は全額返金対象 |
 | 提供予定 | Lemon Squeezy経由の一回払いとZIPダウンロード。現在購入受付なし |
 
-上記は販売開始に向けた方針です。この説明は利用許諾を付与するものではありません。正式条件・販売者表示・配信時期は購入受付前に案内します。返金では適用される消費者の権利や決済事業者の判断を排除しません。
+上記は販売開始に向けた方針です。この説明は利用許諾を付与するものではありません。正式条件・販売者表示・配信時期・実際に販売可能な国や地域は購入受付前に案内します。返金では適用される消費者の権利や決済事業者の判断を排除しません。
 
 ## 開発者・問い合わせ
 
