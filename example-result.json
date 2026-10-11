@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "engine_version": "0.1.2",
+  "status": "issues_found",
+  "findings": [
+    {
+      "constraint_id": "c1",
+      "type": "constraint_weakened",
+      "severity": "high",
+      "source_reference": {
+        "start": 0,
+        "end": 15,
+        "quote": "工程Bは工程Aの7日後に実施。"
+      },
+      "compressed_references": [
+        {
+          "start": 0,
+          "end": 16,
+          "quote": "工程Bは工程Aの7日以降に実施。"
+        }
+      ],
+      "explanation": "許容する日数の集合が拡大している",
+      "confidence": null,
+      "confidence_reason": "確率として校正していないルール判定",
+      "suggested_patch": "工程Bは工程Aの7日後に実施。"
+    }
+  ],
+  "checked_constraint_ids": [
+    "c1"
+  ],
+  "unassessed_constraint_ids": [],
+  "coverage_scope": "provided_constraints_controlled_japanese_only",
+  "limitations": [
+    "原文からの保護事項抽出漏れは未検査",
+    "保護事項外の追加情報は未検査",
+    "検査結果は安全保証・実行承認ではない"
+  ],
+  "requires_human_review": true,
+  "usage": {
+    "llm_calls": 0,
+    "input_tokens": 0,
+    "output_tokens": 0
+  }
+}

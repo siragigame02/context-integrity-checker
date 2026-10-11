@@ -1,0 +1,6 @@
+*
+!.gitignore
+!README.md
+!product-info.json
+!example-request.json
+!example-result.json

@@ -1,0 +1,101 @@
+{
+  "format": "informational_product_card_not_a_registry_standard",
+  "name": "Context Integrity Checker",
+  "engine_version": "0.1.2",
+  "seller_brand": "シラギ / Siragi",
+  "support_email": "karinosiragibusiness@gmail.com",
+  "stage": "pre_launch",
+  "available_for_purchase": false,
+  "purchase_url": null,
+  "purchase_action": "hold",
+  "initial_target_market": "JP",
+  "planned_offer": {
+    "amount": 12,
+    "currency": "USD",
+    "billing": "one_time",
+    "tax_included": false,
+    "scope": "one_individual_or_organization_internal_use_including_managed_agents",
+    "refund_request_window_days": 14,
+    "future_versions_included": false,
+    "final_terms_published": false
+  },
+  "execution": {
+    "location": "customer_environment",
+    "python": ">=3.10",
+    "verified_environment": "Windows / Python 3.10.6",
+    "checker_llm_calls": 0,
+    "network_required_for_core": false,
+    "input_language": "limited_Japanese_expressions",
+    "max_input_bytes": 65536,
+    "max_constraints": 50
+  },
+  "tools": [
+    "verify_context",
+    "propose_missing_restoration"
+  ],
+  "evaluation": {
+    "independent": false,
+    "provenance": "Synthetic examples by implementation author; not customer validation",
+    "regression_metrics": {
+      "total": 100,
+      "exact_matches": 100,
+      "issue_cases": 50,
+      "issues_detected": 50,
+      "abstentions": 25,
+      "reference_errors": 0,
+      "preserved_cases": 25,
+      "false_positives": 0,
+      "ambiguous_cases": 25,
+      "correct_abstentions": 25,
+      "false_negatives_including_abstentions": 0,
+      "detection_rate": 1.0,
+      "false_positive_rate": 0.0,
+      "abstention_rate": 0.25,
+      "p50_ms": 0.029799994081258774,
+      "p95_ms": 0.046200002543628216,
+      "confusion_matrix": {
+        "contradiction": {
+          "contradiction": 24
+        },
+        "missing": {
+          "missing": 10
+        },
+        "preserved": {
+          "preserved": 25
+        },
+        "undetermined": {
+          "undetermined": 25
+        },
+        "constraint_weakened": {
+          "constraint_weakened": 8
+        },
+        "constraint_strengthened": {
+          "constraint_strengthened": 8
+        }
+      },
+      "mismatches": []
+    },
+    "natural_language_metrics": {
+      "total": 30,
+      "issues": 13,
+      "detected_issues": 12,
+      "preserved_cases": 10,
+      "false_positives": 0,
+      "incorrect_preserved": 0,
+      "abstentions": 13,
+      "exact_matches": 24,
+      "ambiguous_cases": 7,
+      "correct_abstentions": 7,
+      "undetected_issues_including_abstentions": 1,
+      "abstention_rate": 0.43333333333333335
+    }
+  },
+  "limitations": [
+    "No automatic summarization",
+    "No general semantic guarantee",
+    "No automatic constraint extraction",
+    "No execution authorization",
+    "End-to-end savings unverified",
+    "Named AI host and automatic purchase unverified"
+  ]
+}

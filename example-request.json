@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "original": "工程Bは工程Aの7日後に実施。",
+  "compressed": "工程Bは工程Aの7日以降に実施。",
+  "constraints": [
+    {
+      "id": "c1",
+      "subject": "工程B",
+      "source_reference": {
+        "start": 0,
+        "end": 15,
+        "quote": "工程Bは工程Aの7日後に実施。"
+      }
+    }
+  ]
+}
