@@ -102,5 +102,12 @@
     "also": "agent operators and organizations",
     "geographic_focus": "not_limited_to_Japan"
   },
-  "sales_regions_status": "not_finalized"
+  "sales_regions_status": "not_finalized",
+  "usage_cautions": {
+    "complete_detection_or_restoration_guaranteed": false,
+    "retain_originals_and_backups": true,
+    "independent_review_before_destructive_or_important_actions": true,
+    "seller_liability_for_own_legal_responsibility_not_excluded": true,
+    "refund_policy_unchanged": true
+  }
 }
